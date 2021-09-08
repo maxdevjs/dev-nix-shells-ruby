@@ -8,8 +8,8 @@ A [nix-shell](https://nixos.org/manual/nix/stable/#description-13) template to s
 
 Built gathering inspiration from several [sources](#resources), it makes available:
 
-- [Ruby](https://www.ruby-lang.org/en/)
-- [solargraph](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#solargraph) ([LSP](https://microsoft.github.io/language-server-protocol/))
+- `unstable.`[ruby_3_0](https://www.ruby-lang.org/en/)
+- `unstable.`[rubyPackages.solargraph](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#solargraph) ([LSP](https://microsoft.github.io/language-server-protocol/))
 - environment opinions:
   - several environment variables are set
   - `Gemfile` is created (for [solargraph](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#solargraph) to launch)
